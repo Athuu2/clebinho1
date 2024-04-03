@@ -29,18 +29,11 @@ struct TriggerBot {
             //weaponId != WEAPON_NEMESIS &&
             //weaponId != WEAPON_PROWLER &&
             //weaponId != WEAPON_THROWING_KNIFE &&
-            weaponId != WEAPON_P2020 &&
+            // weaponId != WEAPON_P2020 &&
             weaponId != WEAPON_MOZAMBIQUE &&
             weaponId != WEAPON_EVA8 &&
             weaponId != WEAPON_PEACEKEEPER &&
-            weaponId != WEAPON_MASTIFF &&
-            weaponId != WEAPON_WINGMAN &&
-            weaponId != WEAPON_LONGBOW &&
-            weaponId != WEAPON_SENTINEL &&
-            weaponId != WEAPON_G7 &&
-            weaponId != WEAPON_3030 &&
-            weaponId != WEAPON_TRIPLE_TAKE &&
-            weaponId != WEAPON_BOCEK
+            weaponId != WEAPON_MASTIFF
             )return;
 
         //max range changes based on if we are zoomed in or not
